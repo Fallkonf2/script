@@ -1,3 +1,8 @@
+local nicks = {"vNCC1337","demonYT32","Kreyg1997","Egorscep3","Toxic_alient","xD_NastyXD","demonYT322"}
+local player = game.Players.LocalPlayer
+if not table.find(nicks,player.Name) then
+player:Kick("Sosi hyi")
+else
 local playerjfstat =  game:GetService("Players").LocalPlayer.PrivateStats.JumpForce.Value
 local jfstat = ""
 if playerjfstat >= 0 then jfstat = "+JF5"
